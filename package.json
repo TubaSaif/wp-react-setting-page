@@ -1,0 +1,19 @@
+{
+    "name": "react-settings-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wordpress/scripts": "^25.4.0"
+    },
+    "dependencies": {
+        "react-router-dom": "^7.0.1"
+    }
+}

@@ -1,0 +1,98 @@
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/components/style.css ***!
+  \******************************************************************************************************************************************************************************/
+/* styles.css */
+.dashboard {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e4e4e4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.dashboard h1 {
+    text-align: center;
+    color: #333;
+}
+
+.dashboard form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard form div {
+    margin-bottom: 15px;
+}
+
+.dashboard form label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+
+.dashboard form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.dashboard form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dashboard form button:hover {
+    background-color: #0056b3;
+}
+
+/* Status message */
+.status-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    animation: fadeInOut 3s;
+}
+
+.status-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.status-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Fade-in-out animation */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*# sourceMappingURL=style-index.css.map*/
